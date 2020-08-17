@@ -8,7 +8,7 @@ type Hello struct{
 
 
 func NewHello() *Hello{
-	return &Hello{Name: "foo"}
+	return &Hello{Name: "foop"}
 }
 
 func (h *Hello) ToJsonString() string {
